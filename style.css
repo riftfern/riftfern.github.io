@@ -1,0 +1,105 @@
+body {
+    background: #e3f2b5;
+    color: black;
+    max-width: 70%;
+    margin: 1.2em 1.6em 4em 1.6em;
+    line-height: 1.45;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 52%;
+    height: auto;
+}
+
+.essay img,
+img.wide {
+    max-width: 78%;
+}
+
+.cap {
+    font-size: 0.92em;
+    font-style: italic;
+    max-width: 42em;
+}
+
+.essay {
+    max-width: 38em;
+}
+
+.essay p {
+    margin: 0.9em 0;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.nav {
+    margin: 0 0 1.2em 0;
+}
+
+.fixed {
+    position: fixed;
+}
+
+#sparkles {
+    top: 2%;
+    right: 2%;
+    width: 7%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#spark-note {
+    position: fixed;
+    top: 12%;
+    right: 2%;
+    width: 18%;
+    font-size: 0.85em;
+    z-index: 2;
+}
+
+#end-note {
+    height: 10px;
+}
+
+::selection {
+    background: #fff59a;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 90%;
+        margin: 0.8em;
+    }
+
+    img,
+    .essay img,
+    img.wide {
+        max-width: 100%;
+    }
+
+    #sparkles {
+        width: 16%;
+    }
+
+    #spark-note {
+        width: 40%;
+        top: 16%;
+    }
+}
