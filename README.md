@@ -2,28 +2,15 @@
 
 Hand-coded HTML / CSS / JS. GitHub Pages.
 
-Live (once Pages is on): **https://riftfern.github.io/**
+Live: **https://riftfern.github.io/**
 
-## Publish
+## Phone
 
-GitHub CLI is not logged in on this machine. From this folder:
+- Site: https://riftfern.github.io/
+- Repo (edit copy, upload pics): https://github.com/riftfern/riftfern.github.io
+- Photo drop: [`inbox/`](inbox/) — upload from the GitHub app, then tell me what each picture is
 
-```bash
-cd /home/jg/Documents/dev/riftfern.github.io
-gh auth login
-gh repo create riftfern.github.io --public --source=. --remote=origin --push
-```
-
-Then: GitHub → repo **Settings → Pages → Deploy from a branch → `main` / `/ (root)`**.
-
-If `riftfern.github.io` already exists, skip `gh repo create` and:
-
-```bash
-git remote add origin git@github.com:riftfern/riftfern.github.io.git
-git push -u origin main
-```
-
-User site URLs only work if the repo is named `USERNAME.github.io`. A project repo works too, at `https://riftfern.github.io/REPO/`.
+Copy lives in the `.html` files. On your phone: open the file on GitHub → pencil → edit → commit. Or send me the rewritten paragraphs in chat.
 
 ## Local
 
@@ -33,7 +20,7 @@ python3 -m http.server 4173
 
 Open http://127.0.0.1:4173
 
-## Pages
+## Pages (files)
 
 | file | what |
 |---|---|
