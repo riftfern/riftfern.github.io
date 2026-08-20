@@ -1,3 +1,9 @@
 .DS_Store
 *.swp
 .idea/
+
+inbox/*.jpg
+inbox/*.jpeg
+inbox/*.png
+inbox/*.heic
+inbox/*.webp
